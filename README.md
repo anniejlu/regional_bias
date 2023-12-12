@@ -10,7 +10,7 @@ sentiment140:
     . The output of file splitting is in the folder "sentiment140/"
 
   *Model training:
-    . training_cv25.ipynb is the code for fine-tuning BERT model with sentiment140 data(train set); The results can be found [University fig_share link]
+    . training_cv25.ipynb is the code for fine-tuning BERT model with sentiment140 data(train set); The results can be found from https://figshare.com/s/d9969dc08e74aa6d2d75
 
   *Performance reuslts: To save the computation cost of embedding the documents, a sample of 1000 for US and UK is drawn for evaluation calculation, we repeat the sampling for 30 times.
     . performance results.ipynb: the code generating performance evaluation results (accuracy, AUC, precision and recall) for each round of sampling; results are in the corresponding folders in sentiment140/performance_results  
