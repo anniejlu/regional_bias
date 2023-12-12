@@ -3,14 +3,14 @@ sentiment140:
 * Data preparation (tag country code): "sentiment140/geo_info_tagging/"
     .profile_geo_extraction.ipynb is the code for extracting location data from user file of twitter
     .geo_tagging.ipynb is the code for getting country code from the location information extracted from profile_geo_extraction.ipynb
-    . The input data: "twitter140.csv" will be shared with [University fig_share link]
-    . The final outputs of geo_tagging.ipynb are countryInfo0-50k.csv and countryInfo50k-100k
+    . The input data: sentiment140 dataset can be downloaded from https://www.tensorflow.org/datasets/catalog/sentiment140
+    . The final outputs of geo_tagging.ipynb are countryInfo0-50k.csv and countryInfo50k-100k.csv
   Data preparation (data split): to save the time of searching for regional data each time for running, we split the output results into files by regions:
     .data_splitting.ipynb is the code for file splitting
     . The output of file splitting is in the folder "sentiment140/"
 
   *Model training:
-    . training_cv25.ipynb is the code for fine-tuning BERT model with twitter140 data; The results will be share [University fig_share link]
+    . training_cv25.ipynb is the code for fine-tuning BERT model with sentiment140 data(train set); The results can be found [University fig_share link]
 
   *Performance reuslts: To save the computation cost of embedding the documents, a sample of 1000 for US and UK is drawn for evaluation calculation, we repeat the sampling for 30 times.
     . performance results.ipynb: the code generating performance evaluation results (accuracy, AUC, precision and recall) for each round of sampling; results are in the corresponding folders in sentiment140/performance_results  
