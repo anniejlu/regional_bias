@@ -44,6 +44,6 @@ All the results are summarized in "results_gathering.csv"
     - results: in folder "Reuters21578-multiclass/reuters_bert_embedding"
   
 All the results are summarized in "reuters_results_gathering.csv"
-  
+
   
   
