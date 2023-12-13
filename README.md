@@ -8,7 +8,7 @@
     - The final outputs of "geo_tagging.ipynb" are "countryInfo0-50k.csv" and "countryInfo50k-100k.csv"
   
     - Data preparation (data split): to save the time of searching for regional data each time for running, we split the output results into files by regions:
-        -data_splitting.ipynb is the code for file splitting
+        - data_splitting.ipynb is the code for file splitting
         - The output of file splitting is in the folder "sentiment140/"
 * Model training:
     - "training_cv25.ipynb" is the code for fine-tuning BERT model with sentiment140 data(train set); 
