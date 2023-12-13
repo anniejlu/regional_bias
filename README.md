@@ -25,7 +25,7 @@
   
 * LDA results:
     - "LDA-sentiment140.ipynb" is the code for getting the embedding distance results in the LDA stream.
-    - The results can be found in  sentiment140/lda_results
+    - The results can be found in  "sentiment140/lda_results"
 
 All the results are summarized in "results_gathering.csv"
 
