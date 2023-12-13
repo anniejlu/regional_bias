@@ -10,7 +10,7 @@ sentiment140:
     . The output of file splitting is in the folder "sentiment140/"
 
   *Model training:
-    . training_cv25.ipynb is the code for fine-tuning BERT model with sentiment140 data(train set); The results can be found from https://figshare.com/s/d9969dc08e74aa6d2d75
+    . training_cv25.ipynb is the code for fine-tuning BERT model with sentiment140 data(train set); The trained models can be downloaded from 10.17608/k6.auckland.24796683
 
   *Performance reuslts: To save the computation cost of embedding the documents, a sample of 1000 for US and UK is drawn for evaluation calculation, we repeat the sampling for 30 times.
     . performance results.ipynb: the code generating performance evaluation results (accuracy, AUC, precision and recall) for each round of sampling; results are in the corresponding folders in sentiment140/performance_results  
@@ -30,12 +30,16 @@ All the results are summarized in "results_gathering.csv"
 Reuters21578-multilcass_labelling:
   .Data preparation
   code: reuters-text-apte.ipynb; results: Reuters21578-multiclass/test_sets_docbert
+  
   .training:
   code: docbert-training.ipynb - needs to git-clone docbert environment first from "https://github.com/castorini/hedwig"
-  .performance results: outputcell in docbert-training.ipynb, summarized in "reuters_results.csv
+  trained model can be downloaded from: 10.17608/k6.auckland.24796740
+  .performance results: outputcell in docbert-training.ipynb, summarized in "reuters_results.csv"
+  
   .embedding results:
   code: reuters-bert-embedings.ipynb
-  results: in folder Reuters21578-multiclass/reuters_bert_embedding
+  results: in folder "Reuters21578-multiclass/reuters_bert_embedding"
+  
   All the results are summarized in "reuters_results_gathering.csv"
   
   
