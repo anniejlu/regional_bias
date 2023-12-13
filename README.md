@@ -3,6 +3,7 @@
 * Data preparation (tag country code): "sentiment140/geo_info_tagging/"
     - profile_geo_extraction.ipynb is the code for extracting location data from user file of twitter
     - geo_tagging.ipynb is the code for getting country code from the location information extracted from profile_geo_extraction.ipynb
+    - profile_geo_extraction.ipynb is an example code for extracting profile data from 2000th to 3000th data
     - The input data: sentiment140 dataset can be downloaded from https://www.tensorflow.org/datasets/catalog/sentiment140
     - The final outputs of geo_tagging.ipynb are countryInfo0-50k.csv and countryInfo50k-100k.csv
   
