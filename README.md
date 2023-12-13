@@ -15,7 +15,7 @@
     - The trained models can be downloaded from [10.17608/k6.auckland.24796683](https://figshare.com/s/d9969dc08e74aa6d2d75)
 
 * Performance reuslts: To save the computation cost of embedding the documents, a sample of 1000 for US and UK is drawn for evaluation calculation, we repeat the sampling for 30 times.
-    - "performance results.ipynb" is the code generating performance evaluation results (accuracy, AUC, precision and recall) for each round of sampling; results are in the corresponding folders in sentiment140/performance_results  
+    - "performance results.ipynb" is the code generating performance evaluation results (accuracy, AUC, precision and recall) for each round of sampling; results are in the corresponding folders in "sentiment140/performance_results"  
     - "performance-results-summary.ipynb" is the code calculating the mean values of performance evaluation (30 rounds of sampling), and the distance correlation results of performance variation from 25 model results.
     The mean value results and the distance correlation results can be found in the output cells in the notebook "performance-results-summary.ipynb".
 
