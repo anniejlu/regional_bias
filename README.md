@@ -28,15 +28,15 @@ sentiment140:
 All the results are summarized in "results_gathering.csv"
 
 Reuters21578-multilcass_labelling:
-  .Data preparation
-  code: reuters-text-apte.ipynb; results: Reuters21578-multiclass/test_sets_docbert
+  *Data preparation
+      .code: reuters-text-apte.ipynb; results: Reuters21578-multiclass/test_sets_docbert
   
-  .training:
-  code: docbert-training.ipynb - needs to git-clone docbert environment first from "https://github.com/castorini/hedwig"
-  trained model can be downloaded from: 10.17608/k6.auckland.24796740
-  .performance results: outputcell in docbert-training.ipynb, summarized in "reuters_results.csv"
-  
-  .embedding results:
+  *training:
+      .code: docbert-training.ipynb - needs to git-clone docbert environment first from "https://github.com/castorini/hedwig"
+      trained model can be downloaded from: 10.17608/k6.auckland.24796740
+    
+  *performance results: outputcell in docbert-training.ipynb, summarized in "reuters_results.csv"
+  *embedding results:
   code: reuters-bert-embedings.ipynb
   results: in folder "Reuters21578-multiclass/reuters_bert_embedding"
   
